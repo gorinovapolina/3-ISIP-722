@@ -1,2 +1,2 @@
 # 3-ISIP-722
-repository for student grappa 722
+repository for group of students 722
