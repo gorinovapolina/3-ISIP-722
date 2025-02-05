@@ -24,3 +24,13 @@
   border: dashed rgb(149, 0, 255) 2px;
   border-radius: 12px;
 }
+
+.garas-btn {
+  background-color: rgb(182, 221, 255);
+  color: #20f5d2;
+  padding: 2%;
+  font-weight: 700;
+  font-size: 20px;
+  border: dashed rgb(0, 191, 255) 2px;
+  border-radius: 12px;
+}
