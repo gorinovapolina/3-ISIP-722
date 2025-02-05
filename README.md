@@ -1,8 +1,12 @@
 # 3-ISIP-722
-Repository for group of students 722
+Репозиторий группы 722
 
-Basic rules: 
-- do not create new issues 
-- discussions during the resolution of issues are only on work issues
+Для начала работы убедитесь, что у вас скачено всё необходимое:
+- GitHub Desktop (https://github.com/apps/desktop)
+- Git (https://git-scm.com/downloads/win)
 
-If you have any questions, write to Telegram @metaltelo
+Основные правила:
+- Не создавать и не редактировать Issues
+- Обсуждения внутри ветки только по рабочим моментам и возникшим проблемам
+  
+Если есть какие то вопросы, пишите в Телеграм @metaltelo
