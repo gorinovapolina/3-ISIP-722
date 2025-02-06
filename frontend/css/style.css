@@ -33,4 +33,23 @@
   font-size: 20px;
   border: dotted rgb(0, 8, 255) 4px;
   border-radius: 9px;
+
+.garas-btn {
+  background-color: rgb(182, 221, 255);
+  color: #20f5d2;
+  padding: 2%;
+  font-weight: 700;
+  font-size: 20px;
+  border: dashed rgb(0, 191, 255) 2px;
+  border-radius: 12px;
+}
+
+.bolotnaya-btn {
+  background-color: rgb(182, 221, 255);
+  color: #f7c7c7;
+  padding: 2%;
+  font-weight: 700;
+  font-size: 20px;
+  border: dashed rgb(199, 154, 232) 2px;
+  border-radius: 12px;
 }
