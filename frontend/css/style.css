@@ -33,6 +33,7 @@
   font-size: 20px;
   border: dotted rgb(0, 8, 255) 4px;
   border-radius: 9px;
+}
 
 .garas-btn {
   background-color: rgb(182, 221, 255);
@@ -60,4 +61,27 @@
   padding: 6px;
   border: solid rgb(255, 149, 184);
   border-radius: 15px;
+}
+
+.belolipetskyBtn {
+  border: none;
+  border-radius: 1rem;
+  background-color: rgb(255, 233, 154);
+  transition-duration: 150ms;
+  font-size: 0.9rem;
+  color: #3c3c3c;
+}
+
+.belolipetskyBtn:hover {
+  scale: 110%;
+  animation: 3s linear infinite rotate;
+}
+@keyframes rotate {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
 }
