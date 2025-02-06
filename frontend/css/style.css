@@ -25,6 +25,15 @@
   border-radius: 12px;
 }
 
+.kunaeva-btn {
+  background-color: rgb(39, 40, 46);
+  color: #ffffff;
+  padding: 2px 5px;
+  font-weight: 700;
+  font-size: 20px;
+  border: dotted rgb(0, 8, 255) 4px;
+  border-radius: 9px;
+
 .garas-btn {
   background-color: rgb(182, 221, 255);
   color: #20f5d2;
