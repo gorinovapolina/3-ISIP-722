@@ -25,6 +25,15 @@
   border-radius: 12px;
 }
 
+.kunaeva-btn {
+  background-color: rgb(39, 40, 46);
+  color: #ffffff;
+  padding: 2px 5px;
+  font-weight: 700;
+  font-size: 20px;
+  border: dotted rgb(0, 8, 255) 4px;
+  border-radius: 9px;
+
 .garas-btn {
   background-color: rgb(182, 221, 255);
   color: #20f5d2;
@@ -45,6 +54,7 @@
   border-radius: 12px;
 }
 
+
 .andrusha-btn {
   background-color: #A0C2FF;
   border: #D9D9D9, 1px, solid;
@@ -52,4 +62,18 @@
   border-radius: 15px;
   text-align: center;
   cursor: pointer;
+}
+  
+.arkhipova-btn {
+  background-color: rgb(255, 223, 250);
+  color: #5e5e5e;
+  padding: 6px;
+  border: solid rgb(255, 149, 184);
+  border-radius: 15px;
+}
+
+.arkhipova-btn:hover {
+  background-color: rgb(245, 201, 238);
+  color: #343434;
+  transition: all;
 }
