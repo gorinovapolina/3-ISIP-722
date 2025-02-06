@@ -34,6 +34,7 @@
   border: dotted rgb(0, 8, 255) 4px;
   border-radius: 9px;
 
+}
 .garas-btn {
   background-color: rgb(182, 221, 255);
   color: #20f5d2;
@@ -66,4 +67,14 @@
   background-color: rgb(245, 201, 238);
   color: #343434;
   transition: all;
+}
+
+.boyarsky-btn {
+  background-color: rgb(231, 200, 20);
+  color: #030202;
+  padding: 2%;
+  font-weight: 700;
+  font-size: 20px;
+  border: dashed rgb(230, 145, 28) 2px;
+  border-radius: 12px;
 }
