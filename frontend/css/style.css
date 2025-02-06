@@ -73,6 +73,30 @@
   border-radius: 15px;
 }
 
+.belolipetskyBtn {
+  border: none;
+  border-radius: 1rem;
+  background-color: rgb(255, 233, 154);
+  transition-duration: 150ms;
+  font-size: 0.9rem;
+  color: #3c3c3c;
+}
+
+.belolipetskyBtn:hover {
+  scale: 110%;
+  animation: 3s linear infinite rotate;
+}
+
+@keyframes rotate {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+
 .arkhipova-btn:hover {
   background-color: rgb(245, 201, 238);
   color: #343434;
