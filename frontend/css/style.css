@@ -52,3 +52,9 @@
   border: solid rgb(255, 149, 184);
   border-radius: 15px;
 }
+
+.arkhipova-btn:hover {
+  background-color: rgb(245, 201, 238);
+  color: #343434;
+  transition: all;
+}
