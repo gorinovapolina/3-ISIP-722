@@ -55,16 +55,15 @@
   border-radius: 12px;
 }
 
-
 .andrusha-btn {
-  background-color: #A0C2FF;
-  border: #D9D9D9, 1px, solid;
+  background-color: #a0c2ff;
+  border: #d9d9d9, 1px, solid;
   color: white;
   border-radius: 15px;
   text-align: center;
   cursor: pointer;
 }
-  
+
 .arkhipova-btn {
   background-color: rgb(255, 223, 250);
   color: #5e5e5e;
@@ -111,4 +110,20 @@
   font-size: 20px;
   border: dashed rgb(230, 145, 28) 2px;
   border-radius: 12px;
+}
+.yanarsi-btn {
+  background: #5e5df0;
+  border-radius: 999px;
+  box-shadow: #5e5df0 0 10px 20px -10px;
+  box-sizing: border-box;
+  color: #ffffff;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+  opacity: 1;
+  outline: 0 solid transparent;
+  padding: 8px 18px;
+  width: fit-content;
+  border: 0;
 }
