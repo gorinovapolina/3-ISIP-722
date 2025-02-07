@@ -4,6 +4,7 @@
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
   gap: 4%;
+  justify-content: center;
 }
 
 .bondarev-btn {
@@ -145,12 +146,12 @@
 }
 
 .maslennikova-btn {
-    background-color: rgb(104, 152, 207);
-    color: #030202;
-    padding: 2%;
-    font-weight: 700;
-    font-size: 20px;
-    border-radius: 15px;   
+  background-color: rgb(104, 152, 207);
+  color: #030202;
+  padding: 2%;
+  font-weight: 700;
+  font-size: 20px;
+  border-radius: 15px;
 }
 
 .yanarsi-btn {
@@ -210,7 +211,7 @@
 
 .habibulina-btn {
   position: relative;
-  padding: 25px 40px;
+  padding: 20px 20px;
   border: none;
   outline: none;
   background: linear-gradient(45deg, #ff00ff 0%, #00ffff 50%, #ff00ff 100%)
@@ -404,4 +405,18 @@
 .zhorkin-btn:active {
   box-shadow: 2px 2px 0px #8b946930;
   transform: translate(2px, 2px);
+}
+
+@media (width<=1100px) {
+  .knopki {
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 3%;
+  }
+}
+
+@media (width<=880px) {
+  .knopki {
+    grid-template-columns: 1fr 1fr;
+    gap: 4%;
+  }
 }
