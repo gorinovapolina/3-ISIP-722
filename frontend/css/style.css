@@ -16,13 +16,25 @@
 }
 
 .konova-btn {
-  background-color: rgb(182, 221, 255);
+  background-color: #b6ddff;
   color: #6213ab;
   padding: 2%;
   font-weight: 700;
+  transition: 0.6s;
   font-size: 20px;
-  border: dashed rgb(149, 0, 255) 2px;
+  border: double rgb(149, 0, 255) 4px;
   border-radius: 12px;
+}
+
+.konova-btn:hover {
+  background-color: #b05dff;
+  color: #ffffff;
+  padding: 2%;
+  font-weight: 700;
+  font-size: 20px;
+  border: double #b6ddff 4px;
+  border-radius: 12px;
+  box-shadow: 0px 2px 10px rgba(58, 60, 69, 0.552);
 }
 
 .kunaeva-btn {
@@ -37,7 +49,7 @@
 
 .garas-btn {
   background-color: rgb(182, 221, 255);
-  color: #20f5d2;
+  color: #00878e;
   padding: 2%;
   font-weight: 700;
   font-size: 20px;
@@ -47,7 +59,7 @@
 
 .bolotnaya-btn {
   background-color: rgb(182, 221, 255);
-  color: #f7c7c7;
+  color: #ff8383;
   padding: 2%;
   font-weight: 700;
   font-size: 20px;
@@ -187,46 +199,38 @@
   filter: brightness(0.99);
 }
 
-.habibulina-btn{
+.habibulina-btn {
   position: relative;
   padding: 25px 40px;
   border: none;
   outline: none;
-  background: 
-      linear-gradient(45deg, 
-          #ff00ff 0%, 
-          #00ffff 50%, 
-          #ff00ff 100%) 
-      border-box;
+  background: linear-gradient(45deg, #ff00ff 0%, #00ffff 50%, #ff00ff 100%)
+    border-box;
   background-size: 200% auto;
   color: #fff;
-  font-family: 'Exo 2', sans-serif;
+  font-family: "Exo 2", sans-serif;
   font-weight: 900;
   text-transform: uppercase;
   letter-spacing: 3px;
   cursor: pointer;
   border-radius: 15px;
-  text-shadow: 0 0 10px rgba(255,255,255,0.5);
+  text-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
   transition: all 0.6s cubic-bezier(0.23, 1, 0.32, 1);
   overflow: hidden;
   transform: perspective(500px) rotateX(15deg);
-  box-shadow:
-      0 0 30px 5px rgba(255,0,255,0.3),
-      inset 0 0 15px 2px rgba(255,255,255,0.2);
+  box-shadow: 0 0 30px 5px rgba(255, 0, 255, 0.3),
+    inset 0 0 15px 2px rgba(255, 255, 255, 0.2);
 }
 
 .habibulina-btn::before,
 .habibulina-btn::after {
-  content: '';
+  content: "";
   position: absolute;
   top: -2px;
   left: -2px;
   right: -2px;
   bottom: -2px;
-  background: linear-gradient(45deg, 
-      #ff00ff 0%, 
-      #00ffff 50%, 
-      #ff00ff 100%);
+  background: linear-gradient(45deg, #ff00ff 0%, #00ffff 50%, #ff00ff 100%);
   z-index: -1;
   animation: steam 20s linear infinite;
   border-radius: 15px;
@@ -240,9 +244,8 @@
 .habibulina-btn:hover {
   background-position: right center;
   transform: perspective(500px) rotateX(15deg) scale(1.05);
-  box-shadow:
-      0 0 50px 10px rgba(255,0,255,0.5),
-      inset 0 0 20px 5px rgba(255,255,255,0.3);
+  box-shadow: 0 0 50px 10px rgba(255, 0, 255, 0.5),
+    inset 0 0 20px 5px rgba(255, 255, 255, 0.3);
   animation: glitch 0.3s infinite;
 }
 
@@ -252,22 +255,48 @@
 }
 
 @keyframes steam {
-  0% { background-position: 0% 50%; }
-  50% { background-position: 100% 50%; }
-  100% { background-position: 0% 50%; }
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
 }
 
 @keyframes glitch {
-  0% { clip-path: inset(2% 0 98% 0); }
-  20% { clip-path: inset(80% 0 1% 0); }
-  30% { clip-path: inset(10% 0 40% 0); }
-  40% { clip-path: inset(25% 0 60% 0); }
-  50% { clip-path: inset(90% 0 5% 0); }
-  60% { clip-path: inset(70% 0 25% 0); }
-  70% { clip-path: inset(10% 0 80% 0); }
-  80% { clip-path: inset(40% 0 50% 0); }
-  90% { clip-path: inset(15% 0 75% 0); }
-  100% { clip-path: inset(0 0 0 0); }
+  0% {
+    clip-path: inset(2% 0 98% 0);
+  }
+  20% {
+    clip-path: inset(80% 0 1% 0);
+  }
+  30% {
+    clip-path: inset(10% 0 40% 0);
+  }
+  40% {
+    clip-path: inset(25% 0 60% 0);
+  }
+  50% {
+    clip-path: inset(90% 0 5% 0);
+  }
+  60% {
+    clip-path: inset(70% 0 25% 0);
+  }
+  70% {
+    clip-path: inset(10% 0 80% 0);
+  }
+  80% {
+    clip-path: inset(40% 0 50% 0);
+  }
+  90% {
+    clip-path: inset(15% 0 75% 0);
+  }
+  100% {
+    clip-path: inset(0 0 0 0);
+  }
 }
 
 .knopka-teplk {
@@ -288,7 +317,7 @@
 }
 
 .kosova-btn {
-  background-color: #B784A7;
+  background-color: #b784a7;
   color: white;
   padding: 14px 24px;
   font-size: 16px;
@@ -300,7 +329,7 @@
 }
 
 .kosova-btn:hover {
-  background-color:  #C8A2C8;
+  background-color: #c8a2c8;
   box-shadow: 0 6px 12px rgba(135, 35, 75, 0.3);
 }
 
@@ -309,31 +338,36 @@
   border: none;
   background: linear-gradient(45deg, #ff00ff, #00ffff);
   color: #fff;
-  font-family: 'Exo 2', sans-serif;
+  font-family: "Exo 2", sans-serif;
   font-weight: 900;
   text-transform: uppercase;
   border-radius: 10px;
   cursor: pointer;
-  box-shadow: 0 0 20px rgba(255,0,255,0.5);
+  box-shadow: 0 0 20px rgba(255, 0, 255, 0.5);
   transition: all 0.3s ease;
   position: relative;
   overflow: hidden;
 }
 
 .ivanova-btn::before {
-  content: '';
+  content: "";
   position: absolute;
   top: 0;
   left: -100%;
   width: 100%;
   height: 100%;
-  background: linear-gradient(90deg, transparent, rgba(255,255,255,0.5), transparent);
+  background: linear-gradient(
+    90deg,
+    transparent,
+    rgba(255, 255, 255, 0.5),
+    transparent
+  );
   transition: left 0.5s ease;
 }
 
 .ivanova-btn:hover {
   transform: scale(1.05);
-  box-shadow: 0 0 30px rgba(0,255,255,0.7);
+  box-shadow: 0 0 30px rgba(0, 255, 255, 0.7);
 }
 
 .ivanova-btn:hover::before {
