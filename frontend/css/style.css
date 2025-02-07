@@ -148,6 +148,31 @@
   cursor: pointer;
 }
 
+.gorinova-btn{
+  background-color: #e954bf;
+  border-radius: 999px;
+  box-shadow: #acacff 0 10px 20px -10px;
+  box-sizing: border-box;
+  color: #ffffff;
+  cursor: pointer;src: ;
+  font-size: 16px;
+  font-weight: 700;
+  opacity: 1;
+  border: 2px solid transparent;
+  padding: 8px 18px;
+  width: fit-content;
+}
+
+.gorinova-btn:hover{
+  background-color: #e954bf;
+  color: #030202;
+  padding: 2%;
+  font-weight: 700;
+  font-size: 20px;
+  border: dashed #acacff 2px;
+  border-radius: 12px;
+}
+
 .butin-btn:hover {
   filter: brightness(0.99);
 }
@@ -235,3 +260,18 @@
   100% { clip-path: inset(0 0 0 0); }
 }
 
+.knopka-teplk {
+  background: linear-gradient(135deg, #ff7e5f, #feb47b);
+  color: white;
+  padding: 12px 24px;
+  font-size: 16px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.knopka-teplk:hover {
+  background: linear-gradient(135deg, #ff512f, #dd2476);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
