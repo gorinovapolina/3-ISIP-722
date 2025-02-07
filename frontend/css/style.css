@@ -16,13 +16,25 @@
 }
 
 .konova-btn {
-  background-color: rgb(182, 221, 255);
+  background-color: #b6ddff;
   color: #6213ab;
   padding: 2%;
   font-weight: 700;
+  transition: 0.6s;
   font-size: 20px;
-  border: dashed rgb(149, 0, 255) 2px;
+  border: double rgb(149, 0, 255) 4px;
   border-radius: 12px;
+}
+
+.konova-btn:hover {
+  background-color: #b05dff;
+  color: #ffffff;
+  padding: 2%;
+  font-weight: 700;
+  font-size: 20px;
+  border: double #b6ddff 4px;
+  border-radius: 12px;
+  box-shadow: 0px 2px 10px rgba(58, 60, 69, 0.552);
 }
 
 .kunaeva-btn {
@@ -37,7 +49,7 @@
 
 .garas-btn {
   background-color: rgb(182, 221, 255);
-  color: #20f5d2;
+  color: #00878e;
   padding: 2%;
   font-weight: 700;
   font-size: 20px;
@@ -47,7 +59,7 @@
 
 .bolotnaya-btn {
   background-color: rgb(182, 221, 255);
-  color: #f7c7c7;
+  color: #ff8383;
   padding: 2%;
   font-weight: 700;
   font-size: 20px;
@@ -130,6 +142,15 @@
   font-size: 20px;
   border: dashed rgb(230, 145, 28) 2px;
   border-radius: 12px;
+}
+
+.maslennikova-btn {
+    background-color: rgb(104, 152, 207);
+    color: #030202;
+    padding: 2%;
+    font-weight: 700;
+    font-size: 20px;
+    border-radius: 15px;   
 }
 
 .yanarsi-btn {
