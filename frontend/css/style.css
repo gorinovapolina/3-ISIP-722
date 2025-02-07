@@ -72,6 +72,16 @@
   border-radius: 15px;
 }
 
+.kudriavtseva-btn {
+  background-color: #588157;
+  color: #dad7cd;
+  padding: 2px 5px;
+  font-weight: 800;
+  font-size: 18px;
+  border: dotted #344e41;
+  border-radius: 11px;
+}
+
 .belolipetskyBtn {
   border: none;
   border-radius: 1rem;
