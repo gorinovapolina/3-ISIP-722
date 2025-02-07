@@ -193,3 +193,19 @@
   background: linear-gradient(135deg, #ff512f, #dd2476);
   box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
 }
+.kosova-btn {
+  background-color: #B784A7;
+  color: white;
+  padding: 14px 24px;
+  font-size: 16px;
+  border: none;
+  border-radius: 7px;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+  box-shadow: 0 4px 8px rgba(135, 35, 75, 0.3);
+}
+.kosova-btn:hover {
+  background-color:  #C8A2C8;
+  box-shadow: 0 6px 12px rgba(135, 35, 75, 0.3);
+}
+
