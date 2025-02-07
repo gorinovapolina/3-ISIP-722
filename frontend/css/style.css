@@ -111,6 +111,7 @@
   border: dashed rgb(230, 145, 28) 2px;
   border-radius: 12px;
 }
+
 .yanarsi-btn {
   background: #5e5df0;
   border-radius: 999px;
@@ -126,4 +127,17 @@
   padding: 8px 18px;
   width: fit-content;
   border: 0;
+}
+
+.butin-btn {
+  background-color: white;
+  border-radius: 6px;
+  border: solid #00000020 1px;
+  box-shadow: 0 0 1px #00000020;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.butin-btn:hover {
+  filter: brightness(0.99);
 }
