@@ -415,7 +415,7 @@
   cursor: pointer;
   transition: all 0.3s ease-in-out;
 }
-.kosova-btn:hover {
+.gerugov-btn:hover {
   background-color: #541a9b;
   box-shadow: 0 6px 12px rgba(34, 6, 172, 0.3);
 }
