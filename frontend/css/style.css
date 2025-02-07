@@ -386,3 +386,22 @@
 .ivanova-btn:active {
   transform: scale(0.95);
 }
+
+.zhorkin-btn {
+  background-color: #f9f9f9;
+  color: #141414;
+  font-size: 16px;
+  font-weight: bold;
+  padding: 12px 24px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  border-color: #141414;
+  box-shadow: 4px 4px 0px #8b946930;
+  transition: all 0.1s ease-in-out;
+}
+
+.zhorkin-btn:active {
+  box-shadow: 2px 2px 0px #8b946930;
+  transform: translate(2px, 2px);
+}
