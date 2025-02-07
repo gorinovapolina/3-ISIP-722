@@ -417,6 +417,22 @@
   transform: translate(2px, 2px);
 }
 
+.gerugov-btn {
+  background-color:brown;
+  color:#00ffff;
+  padding: 14px 24px;
+  font-size: 16px;
+  border: none;
+  border-radius: 7px;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+
+.gerugov-btn:hover {
+  background-color: #541a9b;
+  box-shadow: 0 6px 12px rgba(34, 6, 172, 0.3);
+}
+
 .yushina_btn {
   background-color: #f5adbe;
   color: white;
@@ -445,3 +461,4 @@
     gap: 4%;
   }
 }
+
