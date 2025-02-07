@@ -417,6 +417,21 @@
   transform: translate(2px, 2px);
 }
 
+.yushina_btn {
+  background-color: #f5adbe;
+  color: white;
+  border: none;
+  border-radius: 25px;
+  padding: 15px 30px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.yushina_btn:hover {
+  background-color: #ff3d6a;
+}
+
 @media (width<=1100px) {
   .knopki {
     grid-template-columns: 1fr 1fr 1fr;
